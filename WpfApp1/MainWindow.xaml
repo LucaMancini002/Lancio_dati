@@ -17,9 +17,9 @@
         <Label x:Name="Lbl_risultato" Content="" HorizontalAlignment="Left" Margin="578,272,0,0" VerticalAlignment="Top" Height="83" Width="112"/>
         <Button Content="Tira i dadi" HorizontalAlignment="Left" Margin="647,156,0,0" VerticalAlignment="Top" Width="75" Height="32" Background="#FF2A6BC9" FontWeight="Bold" Click="Button_Click"/>
         <Label Content="Numero 1" HorizontalAlignment="Left" Margin="56,102,0,0" VerticalAlignment="Top"/>
-        <Label Content="Numero 2" HorizontalAlignment="Left" Margin="268,102,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Numero 2" HorizontalAlignment="Left" Margin="268,102,0,0" VerticalAlignment="Top" Width="73"/>
         <Label x:Name="Lbl_num1" Content="" HorizontalAlignment="Left" Margin="56,138,0,0" VerticalAlignment="Top" Width="63"/>
-        <Label x:Name="Lbl_num2" Content="" HorizontalAlignment="Left" Margin="279,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.737,-0.269" Width="62"/>
+        <Label x:Name="Lbl_num2" Content="" HorizontalAlignment="Left" Margin="268,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.737,-0.269" Width="73"/>
 
     </Grid>
 </Window>

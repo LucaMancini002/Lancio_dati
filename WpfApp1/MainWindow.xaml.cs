@@ -21,6 +21,8 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        Random random = new Random();
+        int numero1, ris, numero2;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,10 +31,9 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             
-            Thread mythread1 = new Thread((currentIndex) =>
+            Thread mythread1 = new Thread(() =>
             {
-               Random random = new Random();
-
+              
                 int da = 1;
                 int a = 7;
                
@@ -47,12 +48,20 @@ namespace WpfApp1
             Dispatcher.Invoke(Aggiorna);
         }
 
-        int numero1, ris, numero2;
+        
         private void Aggiorna()
         {
-            Lbl_num1.Content = numero1;
-            Lbl_num2.Content = numero2;
-            Lbl_risultato.Content = ris;
+            if (numero1 == 0 || numero2 == 0)
+            {
+
+            }
+            else
+            {
+                Lbl_num1.Content = numero1;
+                Lbl_num2.Content = numero2;
+                Lbl_risultato.Content = ris;
+            }
+            
         }
     }
 }
