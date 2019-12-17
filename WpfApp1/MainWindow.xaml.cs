@@ -40,6 +40,7 @@ namespace WpfApp1
                 numero1 = random.Next(da, a);
                 numero2 = random.Next(da, a);
                 ris = numero1 + numero2;
+                
 
             });
             //esecuzione di my thread
@@ -57,6 +58,8 @@ namespace WpfApp1
             }
             else
             {
+                img1.Source = new BitmapImage(new Uri($"{numero1}.jfif", UriKind.Relative));
+                img2.Source = new BitmapImage(new Uri($"{numero2}.jfif", UriKind.Relative));
                 Lbl_num1.Content = numero1;
                 Lbl_num2.Content = numero2;
                 Lbl_risultato.Content = ris;

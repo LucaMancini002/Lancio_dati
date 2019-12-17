@@ -94,5 +94,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Immagini\1.jfif" />
+    <Content Include="Immagini\2.jfif" />
+    <Content Include="Immagini\3.jfif" />
+    <Content Include="Immagini\4.jfif" />
+    <Content Include="Immagini\5.jfif" />
+    <Content Include="Immagini\6.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
